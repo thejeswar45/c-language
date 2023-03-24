@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    int maximum,minimum,x,n;
+    printf("Enter Number 1 :");
+    scanf("%d",&x);
+    
+    maximum=x;
+    minimum=x;
+    
+    for(n=2;n<=5;++n)
+    {
+        printf("Enter Number %d :",n);
+        scanf("%d",&x);
+        if(x>maximum)
+        {
+            maximum=x;
+        }
+        if(x<minimum)
+        {
+            minimum=x;
+        }
+    }
+    printf("The Maximum Number is %d\n",maximum);
+    printf("The Minimum Number is %d\n",minimum);
+}
