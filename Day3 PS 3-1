@@ -2,7 +2,7 @@
 
 int main()
 {
-  int age,still;
+  int age,till;
   printf("ENTER YOUR AGE\n");
   scanf("%d",&age);
   printf("PERSON IS ELIGIBLE FOR VOTING ONLY IF HIS/HER AGE IS 18 OR ABOVE ONLY\n");
@@ -13,8 +13,8 @@ int main()
   }
   else if(age<=18 && age>=1)
   {
-      still=18-age;
-      printf("YOU ARE ALLOWED TO VOTE AFTER %d YEARS",still);
+      till=18-age;
+      printf("YOU ARE ALLOWED TO VOTE AFTER %d YEARS",till);
   }
   else 
   {
